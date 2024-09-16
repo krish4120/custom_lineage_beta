@@ -21,13 +21,13 @@ const Navbar: React.FC<NavbarProps> = ({
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="../custom_lineage_dev/Bi3-Logo.svg" alt="Logo" />
+        <img src="../custom_lineage_beta/Bi3-Logo.svg" alt="Logo" />
       </div>
       <div className="navbar-search"> {/* Place search box before the icons */}
         <SearchBox onSearch={onSearch} onNext={onNext} />
       </div>
       <div className="navbar-dropdowns">
-        <button className="navbar-logo" onClick={onReset}><img src="../custom_lineage_dev/refresh.png" alt="Refresh" /></button>
+        <button className="navbar-logo" onClick={onReset}><img src="../custom_lineage_beta/refresh.png" alt="Refresh" /></button>
       </div>
       <div className="navbar-icons">
         <label className="toggle-switch">
@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({
         </label>
         <button className="navbar-button"onClick={onDownload}>Download</button>
         <div className="navbar-profile">
-          <img src="../custom_lineage_dev/user.png" alt="Profile" />
+          <img src="../custom_lineage_beta/user.png" alt="Profile" />
         </div>
       </div>
     </nav>

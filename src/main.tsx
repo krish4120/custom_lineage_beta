@@ -12,9 +12,9 @@ if (rootElement) {
   root.render(
     <Router>
       <Routes>
-        <Route path="/custom_lineage_dev/" element={<App />} />
-        <Route path="/custom_lineage_dev/home" element={<Home />} />
-        <Route path="/custom_lineage_dev/app" element={<App />} />
+        <Route path="/custom_lineage_beta/" element={<App />} />
+        <Route path="/custom_lineage_beta/home" element={<Home />} />
+        <Route path="/custom_lineage_beta/app" element={<App />} />
       </Routes>
     </Router>
   );
